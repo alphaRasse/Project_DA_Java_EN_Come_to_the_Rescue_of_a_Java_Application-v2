@@ -1,11 +1,12 @@
 package com.hemebiotech.analytics;
 
+import java.util.List;
 import java.util.Map;
 
 public interface ISymptomReader {
 
 	
-	public Map<Integer, String> GetSymptoms0() ;
+	public List<String> GetSymptoms() ;
 	public void valueOfSymptoms() ;
 	public void fileResultOut() ;
 }
