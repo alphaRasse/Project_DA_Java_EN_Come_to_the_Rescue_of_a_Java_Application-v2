@@ -24,7 +24,7 @@ public class ReadSymptomDataFromFile implements ISymptomReader {
 	}
 
 	/**
-	 * 
+	 * the Getsymptoms() method allows the program to read external files and save them in an ArrayList
 	 */
 	@Override
 	public List<String> GetSymptoms() {
@@ -53,6 +53,9 @@ public class ReadSymptomDataFromFile implements ISymptomReader {
 	
 
 
+	/**
+	 * valueofsymptoms() allows the program to count the number of times n symptom is repeated
+	 */
 	@Override
 	public void valueOfSymptoms() {
 
@@ -61,6 +64,10 @@ public class ReadSymptomDataFromFile implements ISymptomReader {
 		}
 		}
 
+	
+	/**
+	 * The fileResultOut() method allows the program to create and write a file named result.out
+	 */
 	@Override
 	public void fileResultOut() {
 		try{
